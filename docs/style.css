@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Steradian";
+  src: url("./src/SteradianLight.otf") format("opentype"),
+    url("./src/SteradianBold.otf") format("opentype");
+}
+
+body {
+  background: radial-gradient(
+    52.78% 99.15% at 49.86% 50.98%,
+    #100e18 0%,
+    #000000 100%
+  );
+}
+.contentWrapper {
+  width: 418px;
+  height: 580px;
+  background: #0e0d13;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.imgwrapper {
+  display: block;
+  text-align: center;
+}
+.imgwrapper img {
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+}
+.names {
+  margin-top: 40px;
+}
+.names h1 {
+  font-family: "Steradian", Helvetica, sans-serif;
+  font-size: 40px;
+  line-height: 64px;
+  color: #e4e4e4;
+  font-weight: normal;
+  text-align: center;
+}
+.names h3 {
+  font-family: "Steradian", Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 19px;
+  color: #d5d5d5;
+  font-weight: 300;
+  text-align: center;
+}
+.icons {
+  margin-top: 100px;
+  text-align: center;
+}
+.icons img {
+  padding: 15px;
+}
+.icons .git {
+  width: 41px;
+  height: 31px;
+}
+.icons .insta {
+  width: 31px;
+  height: 31px;
+}
+.icons .twitter {
+  width: 31px;
+  height: 31px;
+}
+
+/* for mobile screens */
+@media screen and (max-width: 700px) {
+  .contentWrapper {
+    width: 318px;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .imgwrapper img {
+    height: 150px;
+    width: 150px;
+  }
+  .names h1 {
+    font-size: 35px;
+    font-weight: normal;
+  }
+  .names h3 {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .icons .git {
+    width: 28px;
+    height: 21px;
+  }
+  .icons .insta {
+    width: 21px;
+    height: 21px;
+  }
+  .icons .twitter {
+    width: 21px;
+    height: 21px;
+  }
+}
